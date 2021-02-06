@@ -171,6 +171,10 @@ p {
   text-align: left;
 }
 
+.textesourcesans.positionparagraphedroite.formetexte.special {
+  text-align: left;
+}
+
 .textesourcesans.positionparagraphedroite.title {
   font-family: 'Josefin Slab', sans-serif;
 }
@@ -1499,6 +1503,11 @@ p {
     display: none;
   }
 
+  .blockgauche.padingleft.sp {
+    display: block;
+    margin-top: 124px;
+  }
+
   .blockgauche.flex {
     display: none;
   }
@@ -1514,6 +1523,14 @@ p {
 
   .blockdroite.blockfooter {
     width: 384px;
+  }
+
+  .blockdroite.mask {
+    display: none;
+  }
+
+  .blockdroite.sp {
+    display: none;
   }
 
   .bouquet1 {
@@ -1562,6 +1579,10 @@ p {
 
   .blockcentral.blocktablet {
     margin-top: 55px;
+  }
+
+  .textejosefin.gauche.gros.normal.largeur.placementfi.special {
+    text-align: left;
   }
 
   .textejosefin.absolute {
@@ -2016,14 +2037,32 @@ p {
     top: 63%;
   }
 
+  .textesourcesans.positionparagraphedroite.formetexte {
+    width: 100%;
+    text-align: left;
+  }
+
+  .textesourcesans.positionparagraphedroite.formetexte.special {
+    width: 90%;
+  }
+
   .sectionpierresgemmes {
-    display: none;
+    display: block;
     height: 650px;
     margin-bottom: 147px;
   }
 
   .blockgauche {
-    display: block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: left;
   }
 
   .blockgauche.flex {
@@ -2041,6 +2080,10 @@ p {
 
   .blockdroite.blockfooter {
     width: 300px;
+  }
+
+  .blockdroite.pic {
+    display: none;
   }
 
   .bouquet1 {
@@ -2092,6 +2135,14 @@ p {
 
   .blockcentral.blocktablet {
     display: none;
+  }
+
+  .textejosefin.gauche.gros.normal.largeur.placementfi.special {
+    width: 90%;
+  }
+
+  .textejosefin.gauche.gros.normal.placementfi2 {
+    text-align: left;
   }
 
   .textejosefin.absolute {
@@ -2211,6 +2262,7 @@ p {
   }
 
   .section {
+    display: none;
     height: 800px;
     margin-bottom: 210px;
     -webkit-box-orient: vertical;
@@ -2230,10 +2282,7 @@ p {
 
   .placementphone {
     position: relative;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: none;
     width: 600px;
     height: 100%;
     -webkit-box-orient: vertical;
@@ -2326,6 +2375,11 @@ p {
   .notreexpertise {
     height: 650px;
     margin-bottom: 123px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .petitplus {
@@ -2545,7 +2599,7 @@ p {
   }
 
   .btn {
-    position: relative;
+    position: static;
     padding-right: 40px;
   }
 
@@ -2583,6 +2637,13 @@ p {
     top: 17%;
     right: 235px;
     width: 121px;
+  }
+
+  .buttons {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .blockinfophone-2 {
@@ -2687,6 +2748,10 @@ p {
     width: 100%;
   }
 
+  .textesourcesans.positionparagraphedroite.formetexte.special {
+    width: 100%;
+  }
+
   .textesourcesans.positionparagraphedroite.title.left {
     width: 100%;
   }
@@ -2698,6 +2763,21 @@ p {
 
   .blockgauche {
     width: 90vw;
+    padding-right: 0px;
+  }
+
+  .blockgauche.padingleft.sp {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90vw;
+    padding-right: 0px;
+    padding-left: 20px;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .blockgauche.blockfootergauche {
@@ -2741,8 +2821,14 @@ p {
     width: 318px;
   }
 
+  .textejosefin.gauche.gros.normal.largeur.placementfi.special {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
   .textejosefin.gauche.gros.normal.placementfi2 {
     font-size: 40px;
+    text-align: left;
   }
 
   .textejosefin.absolute.rotate.normale.phone1 {
@@ -2785,6 +2871,14 @@ p {
 
   .textejosefin.forme.position {
     font-size: 50px;
+  }
+
+  .trait250.droite.marginup.or {
+    width: auto;
+  }
+
+  .trait250.or.marginup {
+    width: auto;
   }
 
   .pierre1 {
