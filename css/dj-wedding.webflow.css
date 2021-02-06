@@ -739,6 +739,7 @@ p {
   background-color: #fff;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .pierre5 {
@@ -1491,7 +1492,7 @@ p {
   }
 
   .blockgauche {
-    display: none;
+    display: block;
   }
 
   .blockgauche.padingleft {
@@ -1508,7 +1509,7 @@ p {
   }
 
   .blockdroite {
-    display: none;
+    display: block;
   }
 
   .blockdroite.blockfooter {
@@ -1990,6 +1991,10 @@ p {
     line-height: 15px;
   }
 
+  .textesourcesans.taillemid.light.majuscule.espacementmid.centre.phone.lightoff {
+    font-size: 20px;
+  }
+
   .textesourcesans.width350.absolute.sizetextetablet.paddin.phone1 {
     left: 25%;
     top: 62%;
@@ -2012,11 +2017,16 @@ p {
   }
 
   .sectionpierresgemmes {
+    display: none;
     height: 650px;
     margin-bottom: 147px;
   }
 
   .blockgauche {
+    display: block;
+  }
+
+  .blockgauche.flex {
     display: none;
   }
 
@@ -2026,7 +2036,7 @@ p {
   }
 
   .blockdroite {
-    display: none;
+    display: block;
   }
 
   .blockdroite.blockfooter {
@@ -2077,7 +2087,7 @@ p {
   }
 
   .blockcentral.blockphone {
-    display: block;
+    display: none;
   }
 
   .blockcentral.blocktablet {
@@ -2319,6 +2329,7 @@ p {
   }
 
   .petitplus {
+    display: none;
     height: 650px;
   }
 
@@ -2426,6 +2437,8 @@ p {
   .div-description-texte-5 {
     height: 75%;
     padding-top: 23px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
   }
 
   .remplissement-description-pierre-1 {
@@ -2670,17 +2683,42 @@ p {
     width: 250px;
   }
 
+  .textesourcesans.positionparagraphedroite.formetexte {
+    width: 100%;
+  }
+
+  .textesourcesans.positionparagraphedroite.title.left {
+    width: 100%;
+  }
+
   .sectionpierresgemmes {
     height: 650px;
     margin-bottom: 0px;
+  }
+
+  .blockgauche {
+    width: 90vw;
   }
 
   .blockgauche.blockfootergauche {
     width: 150px;
   }
 
+  .blockdroite {
+    display: block;
+    width: 90vw;
+  }
+
   .blockdroite.blockfooter {
     width: 150px;
+  }
+
+  .blockdroite.stack {
+    width: 80vw;
+  }
+
+  .blockdroite.pic {
+    display: none;
   }
 
   .bouquet1 {
@@ -2701,6 +2739,10 @@ p {
 
   .blockcentral {
     width: 318px;
+  }
+
+  .textejosefin.gauche.gros.normal.placementfi2 {
+    font-size: 40px;
   }
 
   .textejosefin.absolute.rotate.normale.phone1 {
@@ -2739,6 +2781,10 @@ p {
   .textejosefin.absolute.thin.position.positiontextpetitplusphone {
     left: 37%;
     top: 223px;
+  }
+
+  .textejosefin.forme.position {
+    font-size: 50px;
   }
 
   .pierre1 {
@@ -2787,13 +2833,14 @@ p {
   }
 
   .section {
+    display: none;
     height: 1050px;
     margin-bottom: 617px;
   }
 
   .placementphone {
     top: -33px;
-    display: block;
+    display: none;
     width: 320px;
     margin-bottom: 89px;
     padding-top: 0px;
