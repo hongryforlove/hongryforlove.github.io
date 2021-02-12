@@ -800,8 +800,8 @@ p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 700px;
-  margin-top: 65px;
+  height: auto;
+  margin: 65px 0;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1526,7 +1526,7 @@ p {
   }
 
   .blockdroite.mask {
-    display: none;
+    top: 30%;
   }
 
   .blockdroite.sp {
@@ -2277,7 +2277,10 @@ p {
   }
 
   .placementcomputer {
-    display: none;
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    align-items: center;
   }
 
   .placementphone {
@@ -2373,13 +2376,10 @@ p {
   }
 
   .notreexpertise {
-    height: 650px;
+    display: block;
+    height: auto;
+    margin-top: 350px;
     margin-bottom: 123px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
   }
 
   .petitplus {
@@ -2392,7 +2392,7 @@ p {
   }
 
   .sectiongemmedanslemonde {
-    height: 750px;
+    height: auto;
   }
 
   .wraper3dphone {
@@ -2744,6 +2744,10 @@ p {
     width: 250px;
   }
 
+  .textesourcesans.positionparagraphedroite {
+    width: auto;
+  }
+
   .textesourcesans.positionparagraphedroite.formetexte {
     width: 100%;
   }
@@ -2757,8 +2761,8 @@ p {
   }
 
   .sectionpierresgemmes {
-    height: 650px;
-    margin-bottom: 0px;
+    height: auto;
+    margin-bottom: 200px;
   }
 
   .blockgauche {
@@ -2819,15 +2823,16 @@ p {
 
   .blockcentral {
     width: 318px;
+    margin: 0 auto;
   }
 
   .textejosefin.gauche.gros.normal.largeur.placementfi.special {
-    font-size: 40px;
+    font-size: 50px;
     line-height: 120%;
   }
 
   .textejosefin.gauche.gros.normal.placementfi2 {
-    font-size: 40px;
+    font-size: 50px;
     text-align: left;
   }
 
@@ -2874,7 +2879,7 @@ p {
   }
 
   .trait250.droite.marginup.or {
-    width: auto;
+    width: 100%;
   }
 
   .trait250.or.marginup {
@@ -2883,7 +2888,7 @@ p {
 
   .pierre1 {
     left: 52px;
-    top: 0px;
+    top: 75px;
     right: 0%;
     width: 200px;
   }
@@ -2927,9 +2932,10 @@ p {
   }
 
   .section {
-    display: none;
+    display: block;
     height: 1050px;
-    margin-bottom: 617px;
+    margin-bottom: 0;
+    margin-top: 350px;
   }
 
   .placementphone {
@@ -3073,12 +3079,13 @@ p {
   }
 
   .imagepierrefooter {
-    left: 36%;
-    top: 72%;
+    left: 3%;
+    top: 18%;
   }
 
   .imagepierrefooter.position2 {
-    display: none;
+    left: 61%;
+    top: 67%;
   }
 
   .oroandbaudtextfooter {
